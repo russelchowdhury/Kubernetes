@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/russelchowdhury/Kubernetes.git
+    repoURL: https://github.com/russelchowdhury/Kubernetes-argocd.git
     targetRevision: HEAD
     path: hello-ptc
   destination: 

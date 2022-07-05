@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-ptc
-        image: russelchowdhury/hello-ptc:1.0.0
+        image: russelchowdhury/hello-ptc:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080

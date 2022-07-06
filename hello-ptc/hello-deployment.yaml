@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: hello-ptc
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: hello-ptc
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-ptc
-        image: russelchowdhury/hello-ptc:latest
+        image: russelchowdhury/hello-ptc:1.0.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
